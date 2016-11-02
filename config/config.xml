@@ -1,0 +1,29 @@
+<configuration>
+	<MSSQL_Settings>
+		<ipAddress>ipaddress of server</ipAddress>
+		<username>Straintech</username>
+		<password>enterpassword</password>
+		<dataBase>FLEETMANAGER</dataBase>
+	</MSSQL_Settings>
+	<truckDetails>
+		<straintechID>3</straintechID>
+		<truckName>DT003</truckName>
+		<straintechID>4</straintechID>
+        <truckName>T004</truckName>
+		<straintechID>6</straintechID>
+        <truckName>T006</truckName>
+        <straintechID>7</straintechID>
+        <truckName>T007</truckName>
+
+	</truckDetails>
+	<fileDetails>
+		<ReportfileLocation>C:\Users\Straintech\StrainTechReports\Reports</ReportfileLocation>
+	</fileDetails>
+	<emailAddresses>
+                <address1>fred.flintstone@emailaddress.com</address1>
+                <!--
+                <address2>barney.rubble@emailaddress.com</address2>
+                <address3>betty.boo@emailaddress.com</address3>
+                -->
+        </emailAddresses>
+</configuration>
